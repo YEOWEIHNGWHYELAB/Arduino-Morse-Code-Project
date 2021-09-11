@@ -15,8 +15,7 @@ char* numbers[] = {
   "-----", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----."
 };
 
-void flashSequence(char* sequence)
-{
+void flashSequence(char* sequence) {
   int i = 0;
   
   while (sequence[i] != NULL) {
@@ -27,8 +26,7 @@ void flashSequence(char* sequence)
   delay(gapBetweenChar); // Gaps between letters/numbers
 }
 
-void flashDotOrDash(char dotOrDash)
-{
+void flashDotOrDash(char dotOrDash) {
   digitalWrite(ledPinOut, HIGH);
   
   if (dotOrDash == '.') {
