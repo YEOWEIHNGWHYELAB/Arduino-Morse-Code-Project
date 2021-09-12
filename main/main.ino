@@ -4,6 +4,7 @@ const int ledPinOut = 13; // Set your desired pin...
 const int dotDelay = 200; // Set dot delay. 
 const int dashDelay = 600; // Set dash delay. 
 const int gapBetweenChar = 600; // Set char gap delay. 
+const int whiteSpaceDelay = 800; // Set white space delay.
 
 char* letters[] = {
   ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..",    // A-I
