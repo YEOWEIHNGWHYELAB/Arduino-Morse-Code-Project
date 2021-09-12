@@ -68,7 +68,7 @@ void loop() {
     }
     // White Space
     else if (characters == ' ') {
-      delay(dotDelay * 4);
+      delay(whiteSpaceDelay);
     }
     
   }
