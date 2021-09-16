@@ -1,2 +1,3 @@
 1) Add support for lower & uppercase.
 2) Add support to tune the speed of LED blinking. 
+3) Add support for reading text file into morse code.
